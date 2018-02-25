@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: EKzoU8qRWDqvD3rJVrF+I+jOhyHO3zmDS52AAPgHaqscu0/2G21dXObEcmbaAEDWf72GoNVCE52afAYxkXs0/9yRbL5mVc+Y6afN6UCE/+vExiifFjGYCSvsyJmqXPf2613+pbokCH8rnNY1Pkf8x1bB+KQWWAeQ0euGyC9G+IO3FxwLAmP5JR7FpstyR9O7mCuRC5wpVo58F/4BWRox8XrDEt/sRp4vBR1elb2qFUvtnKUvK1dYqz56U3P6Yz3ktqiftz62Kxgxv/a8pUKJuIWjxs77RV1DlMXp47ghjAsixmTQAlsNhqJNvd5M/QPmadkGeEw6MDtMTWxMVmAp20BEHiEcsgGI29g5BL7hzvp0Fjuw8OtwbX0OEJvE5WHOkfxrpZ6HivicTotfmkA8H0CcJLxIX2k4MuxSqzUQ73L+0A6HMKbyAHqlJ/yUjdBpQ08BF+y5NiRLzYaBPXcaGfEG7txoPR+bZ1jtanATpFO2+DBDTCb4woODQLsKB9wBhXIQXJfSCv4thwYQ9W1iABbQBU8Vj/3C+d3+n511cEwY2QWgv464m46YfTFy2UmXhEuzK7Xt0dtfGROWNOr3rOH4p22TH6yDZk0aZbkNFOJ5Sh4kNaGXJoueVL9ABAyKJU8cYsVs3CqiaU02SJodjwcyJCEq8D3kbgKOVjD+l20=
+  app: secret-eyrie-25311
+  on:
+    repo: mperille/node-shopping-list-integration-tests
